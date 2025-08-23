@@ -1,0 +1,26 @@
+# Django core
+Django>=5.0,<6.0
+
+# Django REST Framework
+djangorestframework>=3.15.0
+
+# JWT Authentication (Simple JWT)
+djangorestframework-simplejwt>=5.3.1
+
+# PostgreSQL database adapter
+psycopg2-binary>=2.9.9
+
+# CORS headers (useful for frontend connections like React/React Native)
+django-cors-headers>=4.3.1
+
+# Environment variable management
+python-dotenv>=1.0.1
+
+# Optional: For password hashing / security
+bcrypt>=4.1.2
+
+# Optional: For API documentation
+drf-yasg>=1.21.7
+
+# Optional: For managing cross-origin cookies/sessions
+dj-database-url>=2.1.0
